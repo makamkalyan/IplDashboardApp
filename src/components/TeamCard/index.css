@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.link {
+  text-decoration: none;
+}
+.team_li {
+  background-color: #ffffff33;
+  border-radius: 18px;
+  border: 2px solid white;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.team_img {
+  height: 100px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-right: 7px;
+}
+
+.name {
+  font-size: 18px;
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 576px) {
+  .team_img {
+    height: 60px;
+  }
+  .name {
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .team_img {
+    height: 120px;
+  }
+  .name {
+    font-size: 20px;
+  }
+}
